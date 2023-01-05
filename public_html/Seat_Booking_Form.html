@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Seat Booking Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Coffee_bean_transparent.jpg" type="image/x_icon">
+    </head>
+    <body>
+        <table border="1" width="1320" align="center">
+            <td height="200" width="200"><img src="coffee-cup.jpg" alt="coffee-cup_image" height="200" width="200"></td>
+                <td colspan="2" align="center"><img src="Coffee Banner.jpg" alt="Coffee Banner_image" height="200" width="1110"></td>
+            </tr>
+            <tr>
+                <td height="50" colspan="3"> <table border="1" width="1320">
+                <tr >
+                     <td height="50" align="center"><a href="index.html">Home</td>
+                       <td align="center"><a href="Transport_List.html">Transport List</td>
+                          <td align="center"><a href="Seat_Booking_Form.html">Seat Booking Form</td>
+                           <td align="center"><a href="Link_of_Travels.html">Link of Travels</td>
+                               <td align="center"><a href="contact.html">Contact us</td>
+                </tr>
+            </table>
+            
+                
+            </tr>
+            <tr>
+                <td height="700" width="200" align="center"><a href="https://www.jumeirah.com/en/hotels-resorts/dubai/burj-al-arab/"><img src="web/b.jpg" alt="b_image" height="700" width="200"></a></td>    
+                <td valign="top">
+                    <form>
+                                 <fieldset>
+                                      <legend align="center">Seat Booking Form</legend>
+                                <table>
+                                    <tr>
+                                        <td>First Name</td>
+                                        <td><input type="text" name="first_name" maxlength="15" size="12"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Last Name</td>
+                                        <td><input type="text" name="last_name" list="name_data"></td>
+                                    <tr>
+                                        <td>Email Address</td>
+                                        <td><input type="email" name="email_address"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Password</td>
+                                        <td><input type="Password" name="password"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone Number</td>
+                                        <td><input type="number" name="phone_number" min="11" max="40"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Account Number</td>
+                                        <td><input type="number" name="phone_number" min="11" max="40"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gender</td>
+                                        <td><input type="radio" name="gender" value="male">Male
+                                            <input type="radio" name="gender1" value="female">Female</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Arrival Date</td>
+                                        <td><input type="date" name="date_of_birth"></td>
+                                                                           </tr>
+                                     <tr>
+                                        <td>Destination From</td>
+                                        <td><input type="text" name="first_name" maxlength="15" size="12"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Destination To</td>
+                                        <td><input type="text" name="first_name" maxlength="15" size="12"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Transportation Name</td>
+                                        <td><input type="text" name="first_name" maxlength="15" size="12"></td>
+                                    </tr>
+                                     <tr>
+                                        <td>Seat Number</td>
+                                        <td><input type="text" name="letter_name">
+                                    </tr>                                      <tr>                                                                                                     
+                                        <td>Image</td>
+                                        <td><input type="file" name="image"  accept="image/*"></td>
+                                                                           </tr>
+       
+                                    <tr>
+                                        <td>Address</td>
+                                        <td><textarea name="address" rows="10" cols="30"></textarea></td>
+                                    </tr>
+<tr>
+                                        <td>Vehicle Name</td>
+                                        <td><select name="districnt_name">
+                                                <option>Select your Vehicle name</option>
+                                                <option value="dhk">Bus</option>
+                                                <option value="raj">Train</option>
+                                                <option value="khul">Launch</option>
+                                               </select>
+                                        </td>
+                                    </tr>
+                                   
+                    <hr/>
+                    <details>
+            <summary>Choose Seat</summary>
+                    <p>Seat Number</p>
+                    
+                              <input type="text" name="name" list="name_data">
+                              <datalist id="name_data">
+                                  <option value="A-1">
+                                  <option value="A-2">
+                                  <option value="A-3">
+                                  <option value="B-1">
+                                  <option value="B-2">
+                                  <option value="B-3">
+                                  <option value="C-1">                      
+                                  <option value="C-2">
+                                  <option value="C-3">
+                                  <option value="D-1">
+                                  <option value="D-2">
+                                  <option value="D-3">
+                                  <option value="E-1">
+                                  <option value="E-2">
+                                  <option value="E-3">
+                                  <option value="F-1">
+                                  <option value="F-2">
+                                  <option value="F-3">
+                                  <option value="G-1">
+                                  <option value="G-2">
+                                  <option value="G-3">
+                                  <option value="H-1">
+                                  <option value="H-2">
+                              </datalist>
+                             
+                    </details>
+                    <hr/>
+                     
+                </td>
+                 <tr>
+                                        <td></td>
+                                        <td>
+                                         <input type="checkbox" name="agree" value="agree"> I agree...
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                         <input type="submit" value="registration" name="btn">
+                                        </td>
+                                    </tr>
+                                    </table>
+                                      </fieldset>
+                              </form>
+                 <td width="200" ><img src="web/Untitled-3.jpg" alt="Untitled-3_image" height="700" width="200"></td>
+            </tr>
+              <tr>
+                <td height="50" colspan="3"> <table width="1320">
+                <tr >
+                         <td height="200" width="300"><img src="web/catchup.jpg" alt="catchup_image" height="200" width="300"></td>
+                         <td width="250"><img src="web/marriage.jpg" alt="marriage_image" height="200" width="550"></td>
+                          <td width="300"><img src="web/baby.jpg" alt="baby_image" height="200" width="450"></td>
+                </tr>
+            </table>  </td> 
+            <tr>
+                <td height="30" colspan="3" align="center"><footer> <p> &copy Copyright1999-2014Travelbd</p>
+        </footer></td>
+                
+            </tr>
+        </table>
+    </body>
+</html>
